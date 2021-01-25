@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: salmon;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --dark-grey: hsl(0, 0%, 55%);
+  --darker-grey: hsl(0, 0%, 41%);
+
+  --mobile: 365px;
+  --desktop: 1440px;
+}
+
+* {
+  font-size: 15px;
+  font-family: "Alata", sans-serif;
+  color: var(--black);
+}
