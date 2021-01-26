@@ -1,9 +1,9 @@
-html,
-body {
+html {
   margin: 0;
   padding: 0;
 
-  background-color: salmon;
+  background-color: white;
+  min-height: 150vh;
 }
 
 :root {
